@@ -12,7 +12,6 @@ export default function Footer() {
                         </p>
                     </div>
 
-                    {/* Footer Column 2 - Navlink */}
                     <div className="mb-6 md:mb-0">
                         <h3 className="text-lg font-semibold mb-4">Navlink</h3>
                         <ul>
@@ -22,7 +21,6 @@ export default function Footer() {
                         </ul>
                     </div>
 
-                    {/* Footer Column 3 - General */}
                     <div className="mb-6 md:mb-0">
                         <h3 className="text-lg font-semibold mb-4">General</h3>
                         <ul>

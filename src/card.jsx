@@ -4,9 +4,9 @@ export default function Carousel() {
     return (
         <div className="relative flex flex-col items-center px-[10%]">
             <div className="flex flex-wrap justify-center">
-                <div className="w-full sm:w-80 md:max-w-[400px] snap-center bg-white rounded-lg shadow-lg carousel-card transition-transform transform hover:scale-105 mb-4 mx-4">
+                <div className="w-full sm:w-80 md:max-w-[400px] snap-center bg-white rounded-lg shadow-lg carousel-card transition-transform transform hover:scale-105 mb-3 mx-3">
                     <img
-                        className="w-full h-64 object-cover rounded-t-lg" // Perbesar ukuran di mobile
+                        className="w-full h-64 object-cover rounded-t-lg" 
                         src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
                         alt="Shoes"
                     />
@@ -23,9 +23,9 @@ export default function Carousel() {
                     </div>
                 </div>
 
-                <div className="w-full sm:w-80 md:max-w-[400px] snap-center bg-white rounded-lg shadow-lg carousel-card transition-transform transform hover:scale-105 mb-4 mx-4">
+                <div className="w-full sm:w-80 md:max-w-[400px] snap-center bg-white rounded-lg shadow-lg carousel-card transition-transform transform hover:scale-105 mb-3 mx-3">
                     <img
-                        className="w-full h-64 object-cover rounded-t-lg" // Perbesar ukuran di mobile
+                        className="w-full h-64 object-cover rounded-t-lg" 
                         src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
                         alt="Hats"
                     />
@@ -42,9 +42,9 @@ export default function Carousel() {
                     </div>
                 </div>
 
-                <div className="w-full sm:w-80 md:max-w-[400px] snap-center bg-white rounded-lg shadow-lg carousel-card transition-transform transform hover:scale-105 mb-4 mx-4">
+                <div className="w-full sm:w-80 md:max-w-[400px] snap-center bg-white rounded-lg shadow-lg carousel-card transition-transform transform hover:scale-105 mb-3 mx-3">
                     <img
-                        className="w-full h-64 object-cover rounded-t-lg" // Perbesar ukuran di mobile
+                        className="w-full h-64 object-cover rounded-t-lg" 
                         src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
                         alt="Hats"
                     />
@@ -61,9 +61,9 @@ export default function Carousel() {
                     </div>
                 </div>
 
-                <div className="w-full sm:w-80 md:max-w-[400px] snap-center bg-white rounded-lg shadow-lg carousel-card transition-transform transform hover:scale-105 mb-4 mx-4">
+                <div className="w-full sm:w-80 md:max-w-[400px] snap-center bg-white rounded-lg shadow-lg carousel-card transition-transform transform hover:scale-105 mb-3 mx-3">
                     <img
-                        className="w-full h-64 object-cover rounded-t-lg" // Perbesar ukuran di mobile
+                        className="w-full h-64 object-cover rounded-t-lg" 
                         src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
                         alt="Watches"
                     />
