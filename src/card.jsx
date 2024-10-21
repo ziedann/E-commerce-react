@@ -3,6 +3,7 @@ import React from 'react';
 export default function Carousel() {
     return (
         <div className="relative flex flex-col items-center px-[10%]">
+            <h1 className='text-[50px] font-semibold mb-[50px]'>Produk Kami</h1>
             <div className="flex flex-wrap justify-center">
                 <div className="w-full sm:w-80 md:max-w-[400px] snap-center bg-white rounded-lg shadow-lg carousel-card transition-transform transform hover:scale-105 mb-3 mx-3">
                     <img
