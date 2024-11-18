@@ -32,7 +32,7 @@ export default function Footer() {
                 </div>
 
                 <div className="text-center text-gray-500 border-t border-gray-700 pt-6">
-                    <p>© 2024 Banda Neira. All Rights Reserved</p>
+                    <p>© 2024 TopOne. All Rights Reserved</p>
                 </div>
             </div>
         </footer>
