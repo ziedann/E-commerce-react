@@ -32,7 +32,7 @@ export default function Carousel() {
                     />
                     <div className="px-4 py-4">
                         <div className="font-bold text-xl mb-2 flex justify-between items-center">
-                            Hats!
+                            Shoes!
                             <span className="bg-black text-white text-xs font-semibold px-2 py-1 rounded-full">NEW</span>
                         </div>
                         <p className="text-gray-700 text-base">The best hats for every occasion.</p>
@@ -51,7 +51,7 @@ export default function Carousel() {
                     />
                     <div className="px-4 py-4">
                         <div className="font-bold text-xl mb-2 flex justify-between items-center">
-                            Hats!
+                            Shoes!
                             <span className="bg-black text-white text-xs font-semibold px-2 py-1 rounded-full">NEW</span>
                         </div>
                         <p className="text-gray-700 text-base">The best hats for every occasion.</p>
@@ -70,7 +70,7 @@ export default function Carousel() {
                     />
                     <div className="px-4 py-4">
                         <div className="font-bold text-xl mb-2 flex justify-between items-center">
-                            Hats!
+                            Shoes!
                             <span className="bg-black text-white text-xs font-semibold px-2 py-1 rounded-full">NEW</span>
                         </div>
                         <p className="text-gray-700 text-base">The best hats for every occasion.</p>
@@ -89,7 +89,7 @@ export default function Carousel() {
                     />
                     <div className="px-4 py-4">
                         <div className="font-bold text-xl mb-2 flex justify-between items-center">
-                            Hats!
+                            Shoes!
                             <span className="bg-black text-white text-xs font-semibold px-2 py-1 rounded-full">NEW</span>
                         </div>
                         <p className="text-gray-700 text-base">The best hats for every occasion.</p>
@@ -108,7 +108,7 @@ export default function Carousel() {
                     />
                     <div className="px-4 py-4">
                         <div className="font-bold text-xl mb-2 flex justify-between items-center">
-                            Watches!
+                            Shoes!
                             <span className="bg-black text-white text-xs font-semibold px-2 py-1 rounded-full">NEW</span>
                         </div>
                         <p className="text-gray-700 text-base">Timeless watches for every style.</p>
