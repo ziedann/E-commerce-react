@@ -27,7 +27,7 @@ export default function Navbar() {
 
           <div id="mobile-menu" className = {`${isOpen ? 'block' : 'hidden'} py-5 md:hidden`}>
             <a href="/" className="block py-2 text-gray-600 hover:text-gray-800">Beranda</a>
-            <a href="/product" className="block py-2 text-gray-600 hover:text-gray-800">Product</a>
+            <a href="/detail" className="block py-2 text-gray-600 hover:text-gray-800">Product</a>
             <a href="#" className="block py-2 text-gray-600 hover:text-gray-800">About</a>
           </div>
         </div>
