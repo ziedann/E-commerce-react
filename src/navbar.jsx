@@ -1,5 +1,6 @@
 import React from 'react'
 import { RxCross2, RxHamburgerMenu } from 'react-icons/rx';
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = React.useState(false);  
@@ -13,8 +14,8 @@ export default function Navbar() {
             </div>
 
             <div className="hidden md:flex space-x-8">
-              <a href="/" className="text-gray-600 hover:text-gray-800">Beranda</a>
-              <a href="/detail" className="text-gray-600 hover:text-gray-800">Product</a>
+              <Link href="/" className="text-gray-600 hover:text-gray-800">Beranda</Link>
+              <Link href="/detail" className="text-gray-600 hover:text-gray-800">Product</Link>
               <a href="*" className="text-gray-600 hover:text-gray-800">About</a>
             </div>
 
@@ -26,8 +27,8 @@ export default function Navbar() {
           </div>
 
           <div id="mobile-menu" className = {`${isOpen ? 'block' : 'hidden'} py-5 md:hidden`}>
-            <a href="/" className="block py-2 text-gray-600 hover:text-gray-800">Beranda</a>
-            <a href="/detail" className="block py-2 text-gray-600 hover:text-gray-800">Product</a>
+            <Link href="/" className="block py-2 text-gray-600 hover:text-gray-800">Beranda</Link>
+            <Link href="/detail" className="block py-2 text-gray-600 hover:text-gray-800">Product</Link>
             <a href="*" className="block py-2 text-gray-600 hover:text-gray-800">About</a>
           </div>
         </div>
