@@ -14,8 +14,8 @@ export default function Navbar() {
             </div>
 
             <div className="hidden md:flex space-x-8">
-              <Link href="/" className="text-gray-600 hover:text-gray-800">Beranda</Link>
-              <Link href="/detail" className="text-gray-600 hover:text-gray-800">Product</Link>
+              <Link to="/" className="text-gray-600 hover:text-gray-800">Beranda</Link>
+              <Link to="/detail" className="text-gray-600 hover:text-gray-800">Product</Link>
               <a href="*" className="text-gray-600 hover:text-gray-800">About</a>
             </div>
 
@@ -27,8 +27,8 @@ export default function Navbar() {
           </div>
 
           <div id="mobile-menu" className = {`${isOpen ? 'block' : 'hidden'} py-5 md:hidden`}>
-            <Link href="/" className="block py-2 text-gray-600 hover:text-gray-800">Beranda</Link>
-            <Link href="/detail" className="block py-2 text-gray-600 hover:text-gray-800">Product</Link>
+            <Link to="/" className="block py-2 text-gray-600 hover:text-gray-800">Beranda</Link>
+            <Link to="/detail" className="block py-2 text-gray-600 hover:text-gray-800">Product</Link>
             <a href="*" className="block py-2 text-gray-600 hover:text-gray-800">About</a>
           </div>
         </div>
