@@ -66,7 +66,7 @@ export default function Carousel() {
                 >
                     <img
                         className="w-full h-64 object-cover rounded-t-lg" 
-                        src="https://down-id.img.susercontent.com/file/sg-11134201-7req5-m2kegx2mruja23.webp"
+                        src="https://down-id.img.susercontent.com/file/sg-11134201-7req5-m2kegx2mruja23.webp        "
                         alt="Watches"
                     />
                     <div className="px-4 py-4">

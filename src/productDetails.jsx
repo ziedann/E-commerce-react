@@ -61,7 +61,7 @@ const ProductDetail = () => {
 
         {/* Bagian Detail Produk */}
         <div className="md:w-1/2 md:ml-6 mt-4 md:mt-0">
-          <h1 className="text-3xl font-semibold mb-2">Nama Produk</h1>
+          <h1 className="text-3xl font-bold mb-2">Kanka Shoes</h1>
 
           {/* Harga */}
           <div className="text-xl text-red-600 font-bold mb-3">Rp 150.000</div>
